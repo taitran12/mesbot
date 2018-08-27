@@ -1856,9 +1856,15 @@ function processMessage(event){
     else if(message.match(/de thuong/i||message.match(/dễ thương/i)||message.match(/dang yeu/i)||message.match(/đáng yêu/i)||message.match(/thong minh/i)||message.match(/thông minh/i))){
       sendMessage(senderId,{text:'Dạ em xin cảm ơn ạ <3'});
     }
-    else if(message.match(/de thuong/i||message.match(/dễ thương/i)||message.match(/dang yeu/i)||message.match(/đáng yêu/i)||message.match(/thong minh/i)||message.match(/thông minh/i))){
-        sendMessage(senderId,{text:'Dạ em xin cảm ơn ạ <3'});
-      }
+    else if(message.match(/hihi/i||message.match(/haha/i)||message.match(/hehe/i))){
+        sendMessage(senderId,{text:'Hihi <3'});
+    }
+    else if(message.match(/ngu/i||message.match(/dan/i)||message.match(/đần/i)||message.match(/dien/i)||message.match(/điên/i)||message.match(/tệ/i))){
+    sendMessage(senderId,{text:'Dạ em biết mình ngu mà. Hãy chờ đấy có ngày em sẽ thông minh lên cho mà xem.'});
+    }
+    else if(message.match(/bye/i||message.match(/byebye/i)||message.match(/goodbye/i)||message.match(/tam biet/i)||message.match(/tạm biệt/i))){
+        sendMessage(senderId,{text:'Dạ em xin chào ạ. Rất mong sớm gặp lại quý khách ạ.'});
+        }
     else{
       sendMessage(senderId,{text:'Xin lỗi quý khách em không biết ạ'});
       sendMessage(senderId,menu('Quý khách có thể tham khảo bên dưới ạ!'));
