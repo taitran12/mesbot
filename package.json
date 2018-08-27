@@ -1,0 +1,26 @@
+{
+  "name": "mesbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taitran12/mesbot.git"
+  },
+  "keywords": ["facebook"],
+  "author": "Tai Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taitran12/mesbot/issues"
+  },
+  "homepage": "https://github.com/taitran12/mesbot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
+}
