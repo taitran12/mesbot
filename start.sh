@@ -4,7 +4,7 @@ curl -X POST -H "Content-Type: application/json" -d '
         "payload":"Get_Started"
     }
 
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAADtOBSDIs0BAKZALTuAPHOQZAzcJMz7ZAnVRfnzoIDXNhKBcCYIySlaEXUc5O9I4nAJkiLzF1zWXboeznxdhZBkj1ttshvgtuAK13oTGIrb9w6jYwZBQjLzk4K64isdElUH8A5OwvNE8ZCU76WACtXOJMYhuLHZAmfPaDDOu0mxwhrNGRfVotl"
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAADtOBSDIs0BAKZALTPHOQZAzcJMz7ZAnVRfnzoIDXNhKBcCYIySlaEXUc5O9IAJkiLzF1zWXboeznxdhZBkj1ttshvgtuAK13oTGIrb9w6jYwZBQjLzk4K64isdElUH8A5OwvNE8ZCU76WACtXOJMYhuLHZAmfPaDDOu0mxwhrNGRfVotl"
 sleep 1
 curl -X POST -H "Content-Type: application/json" -d '{
     "persistent_menu":[
@@ -86,4 +86,4 @@ curl -X POST -H "Content-Type: application/json" -d '{
       }
     ]
     
-  }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAADtOBSDIs0BAKZALTuAPHOQZAzcJMz7ZAnVRfnzoIDXNhKBcCYIySlaEXUc5O9I4nAJkiLzF1zWXboeznxdhZBkj1ttshvgtuAK13oTGIrb9w6jYwZBQjLzk4K64isdElUH8A5OwvNE8ZCU76WACtXOJMYhuLHZAmfPaDDOu0mxwhrNGRfVotl"
+}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAADtOBSDIs0BAKZALTPHOQZAzcJMz7ZAnVRfnzoIDXNhKBcCYIySlaEXUc5O9IAJkiLzF1zWXboeznxdhZBkj1ttshvgtuAK13oTGIrb9w6jYwZBQjLzk4K64isdElUH8A5OwvNE8ZCU76WACtXOJMYhuLHZAmfPaDDOu0mxwhrNGRfVotl"
